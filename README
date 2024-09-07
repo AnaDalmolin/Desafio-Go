@@ -1,0 +1,14 @@
+<h1>Desafio Go - FullCycle<h1>
+
+```shell
+$ docker build -t <Seu usuário>/fullcycle .
+```
+
+
+```shell
+$  docker run <Seu usuário>/fullcycle 
+```
+
+```shell
+$  docker push <Seu usuário>/fullcycle     
+```
