@@ -1,16 +1,16 @@
->Desafio Go - FullCycle'
+# Desafio Go - FullCycle
 
-Para Construir sua imagem
+## Para Construir sua imagem
 ```shell
 $ docker build -t <Seu usuário>/fullcycle .
 ```
 
-Para Rodar sua imagem
+## Para Rodar sua imagem
 ```shell
 $  docker run <Seu usuário>/fullcycle 
 ```
 
-Para publicar sua imagem no dockerhub
+## Para publicar sua imagem no dockerhub
 ```shell
 $  docker push <Seu usuário>/fullcycle     
 ```
