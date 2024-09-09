@@ -14,3 +14,8 @@ $  docker run <Seu usuário>/fullcycle
 ```shell
 $  docker push <Seu usuário>/fullcycle     
 ```
+
+### Link da imagen no dockerhub
+```shell
+$  https://hub.docker.com/r/aninhadalmolin/exerciciogo  
+```

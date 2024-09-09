@@ -6,7 +6,7 @@ ENV GO111MODULE=off
 
 COPY fullcycle.go .
 
-RUN CGO_ENABLED=0 GOOS=linux go build -o fullcycle .
+RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o fullcycle .
 
 FROM scratch
 
